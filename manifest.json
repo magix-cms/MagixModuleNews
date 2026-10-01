@@ -1,0 +1,20 @@
+{
+  "name": "MagixModuleNews",
+  "version": "1.0.0",
+  "description": "Permet d'attacher une liste d'actualités spécifiques dans n'importe quel module.",
+  "author": "Gerits Aurelien (Magix CMS)",
+  "type": "widget",
+  "has_config": false,
+  "core_targets": {
+    "pages": 1,
+    "category": 0,
+    "product": 0,
+    "about": 0
+  },
+  "default_hooks": [
+    "displayPageBottom",
+    "displayProductExtraContent",
+    "displayCategoryBottom",
+    "displayAboutBottom"
+  ]
+}
